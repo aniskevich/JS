@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="productLayout">
+            <div class="productCard">
+                <a href="images/tshirt1.jpg">
+                    <img src="images/tshirtmin.jpg" alt="t-shirt">
+                </a>
+                <div id="product1" class="productDescription">
+                    <div>
+                        <span>Type:</span>
+                        <span>Sport</span>
+                    </div>
+                    <div>
+                        <span>Name:</span>
+                        <span>T-Shirt</span>
+                    </div>
+                    <div>
+                        <span>Brand:</span>
+                        <span>Adidas</span>
+                    </div>
+                    <div>
+                        <span>Size:</span>
+                        <span>L</span>
+                    </div>
+                    <div>
+                        <span>Color:</span>
+                        <span>White</span>
+                    </div>
+                    <div>
+                        <span>Cost:</span>
+                        <span>500</span>
+                    </div>
+                    <div>
+                        <span>Amount:</span>
+                        <input class="amount" type="text" value="1">
+                        <button id="0">Купить</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="productCard">
+                <a href="images/trousers1.jpg">
+                    <img src="images/trousersmin.jpeg" alt="trousers">
+                </a>
+                <div id="product2" class="productDescription">
+                    <div>
+                        <span>Type:</span>
+                        <span>Sport</span>
+                    </div>
+                    <div>
+                        <span>Name:</span>
+                        <span>Trousers</span>
+                    </div>
+                    <div>
+                        <span>Brand:</span>
+                        <span>Adidas</span>
+                    </div>
+                    <div>
+                        <span>Size:</span>
+                        <span>M</span>
+                    </div>
+                    <div>
+                        <span>Color:</span>
+                        <span>Black</span>
+                    </div>
+                    <div>
+                        <span>Cost:</span>
+                        <span>2500</span>
+                    </div>
+                    <div>
+                        <span>Amount:</span>
+                        <input class="amount" type="text" value="1">
+                        <button id="1">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <a href="images/sneakers1.jpg">
+                    <img src="images/sneakersmin.jpg" alt="sneakers">
+                </a>
+
+                <div id="product3" class="productDescription">
+                    <div>
+                        <span>Type:</span>
+                        <span>Sport</span>
+                    </div>
+                    <div>
+                        <span>Name:</span>
+                        <span>Sneakers</span>
+                    </div>
+                    <div>
+                        <span>Brand:</span>
+                        <span>Adidas</span>
+                    </div>
+                    <div>
+                        <span>Size:</span>
+                        <span>43</span>
+                    </div>
+                    <div>
+                        <span>Color:</span>
+                        <span>Black</span>
+                    </div>
+                    <div>
+                        <span>Cost:</span>
+                        <span>8000</span>
+                    </div>
+                    <div>
+                        <span>Amount:</span>
+                        <input class="amount" type="text" value="1">
+                        <button id="2">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productCard">
+                <a href="images/socks1.JPG">
+                    <img src="images/socksmin.JPG" alt="socks">
+                </a>
+                <div id="product4" class="productDescription">
+                    <div>
+                        <span>Type:</span>
+                        <span>Sport</span>
+                    </div>
+                    <div>
+                        <span>Name:</span>
+                        <span>Socks</span>
+                    </div>
+                    <div>
+                        <span>Brand:</span>
+                        <span>noname</span>
+                    </div>
+                    <div>
+                        <span>Size:</span>
+                        <span>40-44</span>
+                    </div>
+                    <div>
+                        <span>Color:</span>
+                        <span>Black</span>
+                    </div>
+                    <div>
+                        <span>Cost:</span>
+                        <span>50</span>
+                    </div>
+                    <div>
+                        <span>Amount:</span>
+                        <input class="amount" type="text" value="1">
+                        <button id="3">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="accordion">
+            <div id="shopCartLayout">
+                <h3>Корзина</h3>
+                <div id="shoppingCart" class="hidden">
+                    Корзина пуста
+                    <button class="nextBtn"></button>
+                </div>
+                
+            </div>
+
+            <div id="shippingLayout">
+                <h3>Адрес доставки</h3>
+                <div id="shipping" class="hidden">
+                    <input type="text">
+                    <input type="text">
+                    <button class="nextBtn"></button>
+                </div>
+            </div>
+            <div id="commentLayout">
+                <h3>Комментарии</h3>
+                <div id="comment" class="hidden">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal">
+            <span id="close">X</span>
+            <div id="modalContent"></div>
+            <div id="prevSlide"><</div>
+            <div id="nextSlide">></div>
+        </div>
+    </div>
+    <script src="shopcart.js"></script>
+</body>
+
+</html>
